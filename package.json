@@ -26,7 +26,7 @@
     "gulp-autoprefixer": "^3.1.0",
     "gulp-bump": "^1.0.0",
     "gulp-env": "^0.2.0",
-    "gulp-eslint": "^1.0.0",
+    "gulp-eslint": "^4.0.0",
     "gulp-if": "^2.0.0",
     "gulp-imagemin": "^2.3.0",
     "gulp-license": "^1.0.0",
@@ -43,6 +43,7 @@
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.4",
     "sw-precache": "^2.2.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "eslint": "4.18.2"
   }
 }
