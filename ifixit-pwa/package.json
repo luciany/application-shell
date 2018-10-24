@@ -22,7 +22,7 @@
     "express-force-https": "^1.0.0",
     "express-handlebars": "^3.0.0",
     "glob": "^7.1.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-clean-css": "^2.0.10",
     "gulp-eslint": "^2.0.0",
     "gulp-rev": "^7.0.0",
@@ -42,12 +42,16 @@
     "run-sequence": "^1.2.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "workbox-build": "^2.0.0"
+    "workbox-build": "^2.0.0",
+    "snyk": "^1.104.2"
   },
   "engines": {
     "node": ">=4.0.0"
   },
   "scripts": {
-    "start": "node index.js"
-  }
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
